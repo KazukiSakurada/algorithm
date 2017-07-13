@@ -58,9 +58,6 @@ int main() {
   cin >> N;
   for (int i = 0; i < N; i++) {
     cin >> C1[i].suit >> C1[i].value;
-  }
-
-  for (int i = 0; i < N; i++) {
     C2[i] = C1[i];
   }
 
